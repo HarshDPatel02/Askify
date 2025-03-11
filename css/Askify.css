@@ -1,0 +1,998 @@
+/* 
+    Common CSS styles for all the files begins
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: #181818;
+    font-family: 'Roboto';
+    height: 100vh;
+    width: 100vw;
+   overflow-x: hidden;
+
+}
+
+
+/* main page starting */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px; 
+  height: 750px; 
+  background-color: #ccc; 
+  display: flex;
+}
+
+
+
+
+
+.content {
+  width: 50%; 
+  height: 100%; 
+  background: #002138;   
+  align-items: center;
+}
+
+
+
+.content img{
+    width: 500px;
+    height: 250px;
+
+}
+.content p{
+    color: white;
+    margin-bottom: 10px;
+ 
+}
+.content h1 img{
+    width: 400px;
+    height: 300px;
+    margin-left: 9%;
+}
+.content h1{
+    margin-bottom: 10px;
+         
+}
+
+.button {
+    text-align: center;
+  
+  }
+  
+  .auth-form {
+    display: inline-block;
+    margin: 10px;
+     
+  
+  }
+
+  .auth-form input[type="submit"] {
+    padding: 20px 40px; 
+    border-radius: 50px; 
+    margin: 10px; 
+    background-color: rgb(14, 90, 255);
+    color: white;
+    font-size: 18px;
+  }
+
+
+
+
+.recent-question{
+  width: 50%; 
+  height: 100%; 
+  background-color: white; 
+
+  overflow-y: auto;
+  
+  
+}
+
+
+.recent-question .session {
+  margin: 10px 0px;
+  border: 2px solid #dedede;
+  border-radius: 10px;
+  width: 90%;
+  color: black;
+  margin-left: 17px;
+  padding-left: 10px;
+  display: flex;
+  background: rgb(215, 215, 215);
+  
+}
+
+.profile, .info {
+width: 80%; 
+padding: 20px; 
+box-sizing: border-box; 
+align-items :center;
+text-align : center;
+
+}
+
+.profile-img {
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+
+.profile-img img {
+border-radius: 50%; 
+width: 100px; 
+height: 100px; 
+object-fit: cover;
+
+}
+
+.profile p{
+ text-align: center;
+ 
+}
+
+
+
+.number-box {
+display: inline-block;
+width: 20px; 
+height: 20px; 
+background-color: white; 
+text-align: center;
+line-height: 30px; 
+margin-left: 10px; 
+
+}
+
+/* main page ending */
+
+
+
+/* login page starting */
+
+.signin-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px; 
+  height: 700px; 
+  background-color: #002138; 
+align-items: center;
+text-align: center;
+}
+
+
+.margin {
+  width: 100%; 
+  height: 20%; 
+  background: #06385ccb; 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.margin .logo{
+
+   max-width: 70%; 
+   height: auto;
+}
+
+.slogan{
+  width: 100%; 
+  height: 5%; 
+  
+  background: #06385ccb; 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  display: flex;
+  color: white;
+}
+
+.signin-container .guest-logo img{
+  width: 200px;
+  height: 150px;
+  text-align: center;
+}
+
+.signin-container .username-input{
+  margin-top: 10px;
+}
+
+.username-input input{
+  border-radius: 10px;
+  width: 250px;
+  height: 25px;
+}
+
+.signin-container .password-input{
+  margin-top: 10px;
+}
+
+.password-input input{
+  border-radius: 10px;
+  width: 250px;
+  height: 25px;
+}
+
+.signin-container .reset-password{
+  margin-top: 10px;
+}
+
+.reset-password a{
+  margin-right: 17%;
+  color: white;
+}
+
+.signin-container .button-login{
+margin-top: 5%;
+}
+
+.button-login button{
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(14, 90, 255);
+  color: white;
+  text-align: center;
+  font-size: 30px;  
+}
+
+.signin-container .new-user{
+  margin-top: 10px;
+  color:white;
+}
+
+/*login page ending */
+
+
+
+
+
+/*signup page starting */
+
+
+.signup-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px; 
+  height: 850px; 
+  background-color: #002138; 
+align-items: center;
+text-align: center;
+}
+
+.information{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.signup-container .inputs{
+  width: 48%;
+  margin-top: 10px;
+  
+}
+
+
+.inputss{
+  width: 48%;
+  margin-top: 10px;
+  margin-left: 65px;
+}
+
+
+.inputss input{
+  border-radius: 10px;
+  width: 400px;
+  height: 25px;
+}
+
+.inputs input{
+  border-radius: 10px;
+  width: 250px;
+  height: 25px;
+}
+
+.inputs label{
+  font-size: 25px;
+  color: white;
+}
+
+
+
+.signup-container .button-sign{
+  margin-top: 1%;
+  }
+  
+  .button-sign button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(14, 90, 255);
+    color: white;
+    text-align: center;
+    font-size: 30px;  
+  }
+  
+  .signup-container .already-user{
+    margin-top: 10px;
+    color:white;
+  }
+
+
+
+
+
+
+
+
+/* signup page ending */
+
+
+
+
+
+
+/* after-login  page starting */
+
+.after-login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px; 
+  height: 650px; 
+  background-color: #ccc; 
+  display: flex;
+}
+
+
+
+
+.user-content {
+  width: 50%; 
+  height: 100%; 
+  background: #002138;   
+  align-items: center;
+}
+
+
+
+.user-content img{
+  margin-left: 50px;
+  width: 400px;
+  height: 200px;
+
+}
+.user-content p{
+  color: white;
+  margin-bottom: 10px;
+
+}
+.user-content h1 img{
+  border-radius: 50%; 
+  margin-left: 30%;
+  width: 200px; 
+height: 200px; 
+object-fit: cover;
+}
+
+.user-content h1{
+  margin-bottom: 10px;
+       
+}
+
+
+
+.user-content .button {
+  text-align: center; 
+}
+
+.user-content .button .auth-form {
+
+  margin: 10px;
+   
+
+}
+
+.user-content .button .auth-form input[type="submit"] {
+  padding: 10px 30px; 
+  border-radius: 50px; 
+  margin: 10px; 
+  background-color: rgb(14, 90, 255);
+  color: white;
+  font-size: 18px;
+}
+
+
+
+.button-logout{
+  margin-left: 10px;
+  
+}
+
+.button-logout button {
+  height: 30px;
+  width: 80px;
+  background-color: rgb(0, 98, 255);
+  border-radius: 10px; 
+  color: white;  
+  text-align: center; 
+  text-decoration: none; 
+  font-size: 8px; 
+  
+ 
+}
+
+
+
+
+
+
+/* after-login page ending */
+
+
+
+
+
+/* post-question page starting */
+
+.logo-margin {
+  width: 100%;
+  height: 120px;
+  background: #06385ccb; 
+  display: flex; 
+  align-items: center; 
+}
+
+.logo-margin .logo{
+
+   max-width: 70%; 
+   height: auto;
+}
+
+
+.footer {
+  background-color: #06385ccb ;
+}
+#footer-auth {
+
+  background-color: #06385ccb ;
+  border-top: 1px solid black;
+  color: white; 
+ float: left;
+  position: fixed; 
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+  height: 40px;
+  align-items: center;
+}
+
+.button-logout-1 button {
+
+  height: 25px;
+  width: 80px;
+  background-color: rgb(0, 98, 255);
+  border-radius: 10px; 
+  color: white;  
+  text-align: center; 
+  text-decoration: none; 
+  font-size: 5px; 
+  
+ 
+}
+
+.body1{
+  display: flex;
+}
+
+.menu{
+  width: 200px;
+  height: 527px;
+  float: left;
+  margin-top: 10px;
+  
+}
+
+.menu .bar1{
+  width: 200px;
+  height: 50px;
+  background-color: #06385ccb;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+.bar1 button{
+  width: 200px;
+  height: 50px;
+  background-color: #0f629dcb;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+ border: 0;
+}
+
+.bar1 button.active {
+  background-color:#002138;
+}
+
+.bar1 a{
+  color: white;
+  text-decoration: none;
+}
+.body1 .post{
+  width: 1000px;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: grey;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.post .question{
+  width: 1000px;
+  height: 40px;
+  background-color: grey;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.post .post-question{
+  margin-top: 10px;
+  width: 1000px;
+  height: 428px;
+  border-radius: 40px;
+  background-color: grey;
+}
+
+.post-question textarea{
+  width: 995px;
+  height: 380px;
+  border-radius: 40px;
+ background-color:#dedede ;
+ text-align: center;
+ font-size: 50px;
+}
+
+ .submit-delete{
+  margin-left: 43%;
+}
+
+ .submit-deletes{
+  width: 80px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #dedede;
+ }
+ .deletes-submit{
+  width: 80px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #dedede;
+ }
+
+
+/* post-question page ending */
+
+
+
+/* question-management  page starting */
+
+
+
+.your-question{
+  width: 800px;
+  height: 98px;
+  margin-left: 200px;
+  margin-top: 20px;
+  background-color: #dedede;
+  align-items: center;
+ border-radius: 10px;
+}
+
+ .uploaded-question{
+  width: 800px;
+  height: 30px;
+  background-color: #dedede;
+}
+
+.uploaded-question h1{
+  margin-left: 15px;
+}
+
+.user-review{
+  width: 800px;
+  height: 30px;
+border-top: 3px solid black;
+border-bottom: 3px solid black;
+  display: flex;
+}
+
+.user-review .like{
+  width: 80px;
+  height: 30px;
+  display: flex;
+  border-right: 3px solid black;
+}
+
+.user-review .dislike{
+  width: 80px;
+  height: 30px;
+  border-right: 3px solid black;
+  display: flex;
+}
+
+.user-review .comment{
+  width: 450px;
+  height: 30px;
+  border-right: 3px solid black;
+  text-align: center;
+  font-size: 20px;
+}
+
+.user-review .date{
+  width: 90px;
+  height: 30px;
+  border-right: 3px solid black;
+  text-align: center;
+}
+.user-review .time{
+  width: 100px;
+  height: 30px;
+
+  text-align: center;
+}
+
+.like .up img{
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 30px;
+  height: 25px;
+}
+
+.dislike .down img{
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 30px;
+  height: 25px;
+}
+
+.counter {
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 25px;
+  height: 20px;
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+
+.option{
+  display: flex;
+  border-bottom-left-radius:  10px;
+  border-bottom-right-radius: 10px;
+}
+
+.option .edit{
+  width: 400px;
+  height: 30px;
+  background-color: grey;
+  border-bottom-left-radius:  10px;
+ border-bottom: 3px solid black;
+}
+
+.option .delete{
+  width: 400px;
+  height: 30px;
+  background-color: grey;
+  border-bottom-right-radius: 10px;
+  border-bottom: 3px solid black;
+}
+
+.body2{
+ width: 800px;
+  height: 105px;
+  flex-direction: column;
+  
+}
+
+/* question-management  page ending */
+
+
+
+
+
+/* question-detail  page starting */
+
+
+.one-question{
+  width: 800px;
+  height: 183px;
+  margin-left: 200px;
+  margin-top: 20px;
+  background-color: #dedede;
+  align-items: center;
+border-top: 10px;
+}
+
+
+.question-box{
+  width: 800px;
+  height: 100px;
+  background-color: #dedede;
+}
+
+.question-box h1{
+  margin-left: 15px;
+}
+
+
+.profile-box{
+  float: left;
+}
+
+.profile-imgs {
+  align-items: center;
+  width: 120px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+
+.profile-imgs img {
+border-radius: 50%; 
+width: 100px; 
+height: 100px; 
+object-fit: cover;
+
+}
+
+.profile-box img, p{
+
+  margin-left: 10px;
+  margin-right: 60px;
+}
+
+.profile-box h1{
+  text-align: center;
+}
+
+.review{
+  width: 800px;
+  height: 30px;
+border-top: 3px solid black;
+border-bottom: 3px solid black;
+  display: flex;
+}
+
+.comment-active{
+  width: 450px;
+  height: 45px;
+  border-right: 3px solid black;
+  text-align: center;
+  font-size: 20px;
+  background-color: grey;
+}
+
+
+
+.user-point{
+  width: 800px;
+  height: 30px;
+border-top: 3px solid black;
+margin-bottom: 15px;
+  display: flex;
+}
+
+.user-point .like{
+  width: 80px;
+  height: 30px;
+  display: flex;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.user-point .dislike{
+  width: 80px;
+  height: 30px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  display: flex;
+}
+
+
+
+.user-point .date{
+  width: 90px;
+  height: 30px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  text-align: center;
+}
+.user-point .time{
+  width: 100px;
+  height: 30px;
+  border-bottom: 3px solid black;
+  text-align: center;
+}
+
+.reply{
+  width: 800px;
+  height: 200px;
+  background-color: grey;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  flex-direction: column;
+}
+
+.other-answer{
+  width: 800px;
+  height: 60px;
+}
+
+.reply-profile{
+  display: flex;
+}
+
+.reply-profile h2{
+  margin-left: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+.img-edit{
+ 
+  align-items: center;
+  width: 40px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.img-edit img{
+  border-radius: 50%; 
+width: 40px; 
+height: 40px; 
+object-fit: cover;
+}
+
+
+.date-reply{
+ margin-left: 360px;
+  width: 85px;
+  height: 30px;
+  border: 3px solid black;
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+}
+ .time-reply{
+ 
+  width: 100px;
+  height: 30px;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.division{
+  display: flex;
+}
+
+.post-your-answer{
+  width: 400px;
+  height: 40px;
+  background-color: #dedede;
+  margin-top: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+}
+
+.post-your-answer .commentForm ,textarea{
+  width: 395px;
+  height: 35px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+.edit-reply{
+  width: 200px;
+  height: 35px;
+  margin-top: 5px; 
+  background-color: #a9a2a2;
+  text-align: center;
+  font-size: 20px;
+
+}
+ button{
+width: 190px;
+height: 30px;
+border-radius: 10px;
+}
+.delete-reply{
+  width: 200px;
+  height: 35px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 5px; 
+  background-color: #a9a2a2;
+  text-align: center;
+ 
+  font-size: 20px;
+}
+
+.more-question{
+  width: 300px;
+  height: 30px;
+  margin-top: 35px;
+  margin-left: 250px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+
+
+
+
+
+/* question-detail  page ending */
+
+
+
+
+/* javascript css starting*/
+.error-text{
+  color: red; 
+  text-decoration: solid;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: underline;
+ }
+
+ .hidden{
+  visibility: hidden;
+}
+
+#commentText.error {
+  border: 2px solid red;
+}
+
+/* ending*/
+
+
+/*  validation */
+
+#footer {
+    background-color: black;;
+    color: white;
+    clear: both;
+    padding: 20px 0;
+}
+
+
+#footer{
+    text-align: center;
+    font-size: 20px;
+}
